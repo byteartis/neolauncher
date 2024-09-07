@@ -1,6 +1,6 @@
 <!-- markdownlint-disable -->
 
-> Tiny launcher for long running processes that terminates on SIGTERM or SIGINT
+> Tiny launcher for long running processes that should terminate on SIGTERM or SIGINT
 
 <!-- gomarkdoc:embed:start -->
 

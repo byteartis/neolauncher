@@ -10,7 +10,7 @@ lint: ; $(info Running lint...)
 lint-fix: ; $(info Running lint fix...)
 	@golangci-lint run --fix
 
-## Run tests. Options: path=./some-path/... [and/or] func=TestFunctionName
+## Run tests. Usage: 'make test'
 test: ; $(info running tests…)
 	@go test -race -failfast -timeout 3m
 
